@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #fff;
+    font-size: 12px;
+    font-family: "微软雅黑", "Heiti SC";
+    -webkit-font-smoothing: antialiased;
+    color: #333
+}
+
+ul, ol {
+    list-style: none
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border: none;
+    outline: none
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover, a:active {
+    outline: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, a {
+    font-size: 12px;
+    font-family: "微软雅黑", "Heiti SC";
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    vertical-align: inherit;
+    -webkit-font-smoothing: antialiased;
+    line-height: inherit;
+    color: inherit;
+    border: none;
+    color: #333
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+textarea {
+    display: block
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+    line-height: 0
+}
+
+* html .clearfix {
+    zoom: 1
+}
+
+*:first-child + html .clearfix {
+    zoom: 1
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    font-size: 0;
+    content: "";
+    display: block;
+    line-height: 0
+}
+
+.yellow {
+    color: #e62e04
+}
+
+.zoom {
+    *zoom: 1
+}
+
+.login-container {
+    width: 990px;
+    margin: 0 auto
+}
+
+.loginPage-logo {
+    padding: 38px 0 65px 0
+}
+
+.loginPage-banner {
+    margin-left: 90px;
+    float: left
+}
+
+.loginPage-content {
+    float: right
+}
+
+.loginPage-content .small {
+    font-size: 12px
+}
+
+.loginPage-content .themeColor {
+    color: #e62e04
+}
+
+.loginMain {
+    border: 1px solid #e9e9e9;
+    border-top: 2px solid #e62e04;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 318px;
+    height: 317px
+}
+
+.loginMain-tab-con {
+    width: 260px;
+    margin: 0 auto;
+    padding-top: 14px
+}
+
+.loginMain-tab-con .active {
+    border-bottom: 1px solid #e62e04
+}
+
+.loginMain-tab {
+    width: 130px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    line-height: 38px;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer
+}
+
+.codeText {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.loginMain-password-login {
+    padding-top: 28px
+}
+
+.loginMain-con {
+    position: relative;
+    padding-left: 36px;
+    margin-left: 29px;
+    border: 1px solid #DFDFDF;
+    width: 222px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px
+}
+
+.loginMain-con .password, .loginMain-con .username {
+    height: 16px;
+    position: absolute;
+    top: 11px
+}
+
+.loginMain-con .username {
+    width: 16px;
+    /*
+    background: url(../images/login_icon.png) no-repeat 0 0;
+    */
+    left: 11px
+}
+
+.loginMain-con .password {
+    width: 14px;
+    /*
+    background: url(../images/login_icon.png) no-repeat -16px 0;
+    */
+    left: 12px
+}
+
+.loginMain-input {
+    width: 210px;
+    height: 38px;
+    line-height: 38px;
+    outline: 0
+}
+
+.loginMain-alert {
+    line-height: 20px;
+    color: #e62e04;
+    padding-left: 40px;
+    height: 20px
+}
+
+.loginMain-Btn {
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
+    background: #e62e04;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 3px
+}
+
+.loginMain-forgetPassword {
+    position: absolute;
+    left: 29px;
+}
+
+.loginMain-sign_in {
+    position: absolute;
+    right: 29px;
+}
+
+.loginMain-forgetPassword:hover {
+    color: #e62e04;
+}
+
+.loginMain-sign_in:hover {
+    color: #e62e04;
+}
+
+.login_action {
+    padding-top: 20px;
+    position: relative;
+}

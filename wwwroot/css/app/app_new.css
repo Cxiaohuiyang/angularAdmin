@@ -1,0 +1,352 @@
+body {
+    font-family: Helvetica, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+    font-size: 12px;
+    background-color: #eee;
+    height: 100%;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #fff;
+    width: 100%;
+}
+
+.header-c, .main-container .m-block {
+    width: 1023px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.header .app-logo {
+    height: 100%;
+    width: 200px;
+    float: left;
+    background: url("/imgs/sign_logo2.png") no-repeat center left;
+
+}
+
+.header .sign_name {
+    position: relative;
+    float: right;
+    height: 100%;
+    line-height: 90px;
+    width: 200px;
+}
+
+.header .avatar {
+    display: inline-block;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 20px;
+    border-radius: 50px;
+    background-color: rgba(196, 196, 196, 0.6);
+    line-height: 50px;
+    text-align: center;
+}
+
+.main-container {
+    height: 330px;
+    padding-top: 50px;
+    background: rgb(187, 187, 187) url(./images/bg.png) no-repeat center center;
+}
+
+.notice-block,
+.flow-block {
+    height: 330px;
+    width: 40%;
+    color: #333;
+}
+
+.notice-block {
+    float: left;
+}
+
+.main-container .flow-block {
+    float: right;
+}
+
+.notice-block .title,
+.flow-block .title {
+    position: relative;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.notice {
+    background: url("./images/notice.png") no-repeat 110px center;
+}
+
+.flowwork {
+    background: url("./images/flowwork.png") no-repeat 110px center;
+}
+
+.main-container .msg-list li {
+    line-height: 25px;
+}
+
+.msg-list {
+    padding: 0;
+    margin: 0;
+}
+
+.msg-list li {
+    position: relative;
+    list-style: none;
+    line-height: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.msg-list .text {
+    padding-right: 95px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+}
+
+.msg-list .date {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+#AppWindow {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#AppWindow .item {
+    display: block;
+    cursor: pointer;
+    flex: 1;
+    border: 2px none #fff;
+    border-left-style: solid;
+    height: 150px;
+    background-color: #eee;
+}
+
+#AppWindow .item:first-child {
+    border-left: none;
+}
+
+.security_bg {
+    background: url("./images/security_bg.png") no-repeat center center;
+}
+
+.pms_bg {
+    background: url("./images/pms_bg.png") no-repeat center center;
+}
+
+.flow_bg {
+    background: url("./images/flow_bg.png") no-repeat center center;
+}
+
+.report_bg {
+    background: url("./images/report_bg.png") no-repeat center center;
+}
+
+#foot {
+    border: 2px none #fff;
+    border-style: solid none none none;
+}
+
+.main-container {
+    border-bottom: 2px solid #fff;
+}
+
+#foot {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.dialog_list {
+    display: none;
+    background-color: #fff;
+    position: relative;
+    padding-top: 90px;
+    width: 900px;
+}
+
+.dialog_list .inn_list_container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.dialog_list .icon-close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    right: 10px;
+    top: 10px;
+    height: 35px;
+    width: 35px;
+    background: url("./images/inn_close.png") no-repeat center center;
+}
+
+.dialog_list .search-box {
+    position: relative;
+}
+
+.dialog_list .search-box .ipt-search {
+    position: relative;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #333;
+}
+
+.dialog_list .search-box .inn-icon-search {
+    position: absolute;
+    border: none;
+    display: block;
+    right: 15px;
+    top: 15px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background: url("./images/inn_search.png") no-repeat center center;
+}
+
+.more-icon {
+    cursor: pointer;
+    text-align: right;
+    display: inline-block;
+    padding-right: 15px;
+    background: url("./images/more.png") no-repeat right center;
+    position: absolute;
+    font-size: 16px;
+    right: 0;
+    top: 0;
+}
+
+.dialog_list .search-box ::-moz-placeholder
+.dialog_list .search-box :-ms-input-placeholder
+.dialog_list .search-box ::-webkit-input-placeholder {
+    color: #999999;
+}
+
+.dialog_list .tigs-list {
+    margin-top: 20px;
+}
+
+.dialog_list .tigs-list .tigs-title {
+    display: inline-block;
+    margin-right: 20px;
+    color: #999999;
+    width: 52px;
+    text-align: right;
+}
+
+.dialog_list .tigs-list .tigs-item {
+    display: inline-block;
+    margin-right: 17px;
+    color: #000;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dialog_list .tigs-list .active {
+    color: #99b6b2;
+}
+
+.dialog_list .main-box {
+    margin-top: 30px;
+}
+
+.dialog_list .main-box .box-inn-item {
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    color: #99b6b2;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid #99b6b2;
+}
+
+.dialog_list .notice-block {
+    float: inherit;
+    width: 100%;
+}
+
+.dialog_list .notice {
+    margin-bottom: 30px;
+}
+
+.block-date {
+    text-align: right;
+}
+
+.pms-avatar .avatar a {
+    display: block;
+    color: #fff;
+}
+
+.pms-avatar ul {
+    position: absolute;
+    top: 85%;
+    z-index: 9999;
+    display: none;
+    left: -23px;
+    width: 100px;
+    padding-top: 18px;
+}
+
+.pms-avatar ul:before {
+    content: "";
+    border-style: solid;
+    border-width: 0 9px 9px;
+    border-color: transparent transparent #5f5d5d;
+    height: 0;
+    position: absolute;
+    left: 40px;
+    top: 9px;
+    width: 0;
+    -webkit-transform: rotate(360deg);
+}
+
+.pms-avatar ul li {
+    border-radius: 4px;
+    padding-top: 3px;
+}
+
+/*.pms-avatar  ul li:last-child {*/
+/*border-radius: 0 0 4px 4px;*/
+/*}*/
+
+.pms-avatar:hover ul {
+    display: block;
+}
+
+.pms-avatar li {
+    background-color: #5f5d5d;
+    padding: 0 3px 3px;
+}
+
+.pms-avatar li a:hover {
+    background-color: #847246;
+}
+
+.pms-avatar li a {
+    line-height: 40px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}

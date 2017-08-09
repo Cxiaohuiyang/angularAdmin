@@ -1,0 +1,197 @@
+.pd0 {
+    padding: 0;
+}
+
+.form-horizontal .form-group {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.form-horizontal .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.form-horizontal.tasi-form .form-group.pd5 {
+    padding: 5px 0;
+    margin-bottom: 0;
+}
+
+.form-control.ng-empty.ng-invalid.ng-touched,
+.form-control.ng-touched[class*=ng-invalid-] {
+    border: 1px solid red;
+}
+
+.form-horizontal.txt-right .control-label {
+    text-align: right;
+}
+
+.form-horizontal.txt-right .form-group label + div {
+    padding-left: 0;
+}
+
+.form-horizontal.lbl-txt-right .control-label {
+    text-align: right;
+}
+
+.u-breadcrumb {
+    font-size: 15px;
+    padding: 20px 15px;
+    margin-bottom: 10px;
+}
+
+.site-footer {
+    padding: 10px 0;
+    position: fixed;
+    margin-left: 210px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.menuContent {
+    z-index: 9999;
+    width: 250px;
+    height: 250px;
+    overflow: auto;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 2px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    top: 90%;
+    right: 10px;
+}
+
+.deptContent {
+    left: 20px;
+}
+
+.deptContent .panel-body {
+    padding: 2px 15px;
+}
+
+.ztree li a, .ztree li a.curSelectedNode {
+    height: 20px;
+    font-size: 14px;
+    opacity: 1;
+}
+
+.form-control[readonly] {
+    background-color: #fff;
+}
+
+.ztree li a {
+    padding: 1px 3px 0 0;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    vertical-align: top;
+    display: inline-block;
+    color: #333;
+}
+
+.list-group a {
+    cursor: pointer;
+}
+
+#role_operate_tree li {
+    padding: 2px 0;
+}
+
+.red {
+    color: red;
+}
+
+.ztree {
+    width: 100%;
+    overflow: auto;
+}
+
+.wrapper {
+    padding-bottom: 100px;
+}
+
+.start-wrapper {
+    background: #2E2D3C url("../imgs/logo.png") center center no-repeat;
+}
+
+.tipso_bubble > .tipso_arrow {
+    margin-left: -8px;
+    border-top-color: rgb(85, 181, 85);
+    border-bottom-color: transparent;
+}
+
+.tipso_bubble{
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    top: -90%;
+    left: 30%;
+}
+.tipso_bubble, .tipso_bubble > .tipso_arrow {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.tipso_bubble {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    z-index: 9999;
+    padding: 2px 10px;
+}
+
+.tipso_style {
+    cursor: help;
+    border-bottom: 1px dotted
+}
+
+.tipso_bubble > .tipso_arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 8px solid;
+    pointer-events: none
+}
+
+.tipso_bubble.top > .tipso_arrow {
+    border-color: #f00 transparent transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px
+}
+
+.tipso_bubble.bottom > .tipso_arrow {
+    border-color: transparent transparent #000;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px
+}
+
+.tipso_bubble.left > .tipso_arrow {
+    border-color: transparent transparent transparent #000;
+    top: 50%;
+    left: 100%;
+    margin-top: -8px
+}
+
+.tipso_bubble.right > .tipso_arrow {
+    border-color: transparent #000 transparent transparent;
+    top: 50%;
+    right: 100%;
+    margin-top: -8px
+}
+.file-list li{
+    padding: 10px 0;
+    font-size: 14px;
+}
+.wrapper-h{
+    height: 100%;
+} .laypage_main{
+    text-align: center;
+}.wrapper{
+     height: 100%;
+       overflow: auto;
+ }

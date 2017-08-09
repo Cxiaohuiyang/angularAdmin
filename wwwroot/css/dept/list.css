@@ -1,0 +1,302 @@
+.sild-title{
+    background-color: #fff;
+    border-bottom: 1px solid #CCC;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.u-ipt {
+    border-radius: 2px;
+    padding: 0 3px 0 5px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #87764F;
+}
+.container{
+    margin: 0;
+    padding:0;
+}
+.search-panel{
+   margin: 0 auto;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+}
+
+md-select {
+    margin: 0;
+    border: 1px solid #87764F;
+}
+md-select.md-default-theme:not([disabled]):focus ._md-select-value,
+md-select:not([disabled]):focus ._md-select-value{
+    border-bottom-color:87764F;
+}
+.index-container {
+    padding: 20px 0;
+}
+
+.room-panel-sort {
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+.extend,
+.extend > td {
+    padding: 0;
+    background-color: #5F5D5D;
+    border-top: none;
+}
+
+.extend table {
+    width: 100%;
+}
+
+.extend table td {
+    background-color: #5F5D5D;
+}
+
+.btn-mini .iconfont {
+    font-size: 9px;
+}
+
+.btn-mini {
+    width: auto;
+}
+
+/*对话框的样式 start */
+.dialog {
+    border: 4px solid #E5E5E5;
+    background-color: #fff;
+}
+
+.dialog .dialog-panel {
+    /*margin: 0 20px;*/
+}
+
+.dialog .title {
+    font-size: 19px;
+    line-height: 60px;
+    color: #87764F;
+}
+
+.dialog .box {
+    border: 1px solid #CCCCCC;
+    margin: 0 20px 20px;
+}
+
+.dialog .box > .title {
+    padding: 0 10px;
+    font-size: 13px;
+    line-height: 40px;
+    border-bottom: 1px solid #CCCCCC;
+    background-color: #F0F0F0;
+}
+
+.dialog .box > .title .num {
+    background-color: #87764F;
+    padding: 1px 10px;
+    margin: 0 10px;
+    line-height: 9px;
+    border-radius: 4px;
+    font-size: 9px;
+    color: #fff;
+}
+
+.dialog .dialog-panel .content {
+    padding: 10px 10px;
+    background-color: #fff;
+}
+
+/*对话框的样式 end */
+#SheShiWeihuModal {
+    width: 892px;
+    height: 400px;
+}
+
+#SheShiWeihuModal .content {
+    padding: 40px 20px;
+
+}
+
+.upload_list .img_item {
+    height: 70px;
+    width: 106px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-right: 15px;
+}
+
+.upload_list .add_upload {
+    line-height: 70px;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.upload_list .img_item img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+
+.upload_list .img_item .iconfont {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+
+    border-radius: 15px;
+
+}
+
+.FanJianWeiHu {
+    width: 800px;
+}
+
+.FanJianWeiHu .lab {
+    padding-right: 20px;
+}
+
+.FanJianWeiHu .ipt {
+    width: 300px;
+}
+
+.FanJianWeiHu .add-num {
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.num-list {
+    width: 650px
+}
+
+.num-list .num-list-item {
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+}
+
+.num-list .num-list-item input {
+    width: 80px;
+    padding: 2px 10px;
+    line-height: 20px;
+    border-radius: 4px;
+    border: 1px solid #87764F;
+}
+
+.num-list .num-list-item i {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.piLiangXiuGaiFangJia .lineH50 {
+    padding: 0 10px;
+    line-height: 50px
+}
+
+.piLiangXiuGaiFangJia .control > .label {
+    width: 100px;
+    text-align: right;
+}
+
+.piLiangXiuGaiFangJia md-checkbox {
+    margin-bottom: 0;
+}
+
+.piLiangXiuGaiFangJia .md-datepicker-input-container {
+    margin-left: 0;
+}
+
+.week-price .item {
+    position: relative;
+}
+
+.week-price .item.flex-15, .week-price .item.flex-15 {
+    -webkit-flex: 1 1 13%;
+    -ms-flex: 1 1 13%;
+    flex: 1 1 13%;
+    max-width: 13%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+.week-price .item label {
+    position: absolute;
+    display: block;
+    color: #b3b3b3;
+    left: 2px;
+    top: 0;
+}
+
+.Wdate.week-Wdate {
+    background-size: 15px auto;
+    background-position-x: 95%;
+    border-radius: 2px;
+    padding: 0 3px 0 5px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #87764F;
+
+}
+
+.week-price .item input {
+    text-align: right;
+    border-radius: 2px;
+    width: 80%;
+    padding: 0 3px 0 0;
+    line-height: 20px;
+    border: 1px solid #87764F;
+}
+
+.inner-table th, .inner-table td {
+    border: none;
+}
+
+.inner-table input {
+    color: #5F5D5D;
+    line-height: 25px;
+    border-radius: 2px;
+    border: none;
+    padding: 0 5px;
+}
+
+.txt-price {
+    width: 60px;
+}
+
+.inner-table input[disabled] {
+    background-color: #999;
+}
+
+.inner-table .txt-remark {
+    width: 98%;
+}
+
+.inner-table thead td {
+    text-align: center;
+    color: #fff;
+}
+
+#parent_dept_tree{
+    z-index: 1000;
+    width: 260px;
+    border: 1px solid #617775;
+    background: #f0f6e4;;
+}
+
+.ztree .line{
+    height: auto;
+}
