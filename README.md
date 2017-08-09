@@ -15,4 +15,4 @@
 页面对应的contoller 写在`controller`中
 
 >参照layout.cshtml 引用css 和 js 
-[图片](https://raw.githubusercontent.com/Cxiaohuiyang/angularAdmin/master/E353F09E-2CBB-4125-ADF8-3C3DBD1F2B8E.png)
+![图片](https://raw.githubusercontent.com/Cxiaohuiyang/angularAdmin/master/E353F09E-2CBB-4125-ADF8-3C3DBD1F2B8E.png)
