@@ -70,7 +70,54 @@
 
                 }
             };
-        })  
+        }) 
+    .directive('doublepicker', ['$timeout', function ($timeout) {
+            return {
+                restrict: 'A',
+                scope: {
+                    startDate: '=',
+                    endDate: '=',
+                    dateFmt: '@'
+                },
+                link: function (scope, element, attr, ngModel) {
+                    let dateRange = '';
+                    $(element).dateRangePicker(
+                        {
+                            separator: ' 至 ',
+                            time: {
+                                enabled: !!scope.time
+                            },
+                            language: 'cn',
+                            shortcuts: {
+                                'prev-days': [1, 10, 15],
+                                'prev': ['week', 'month', 'year'],
+                                'next-days': null,
+                                'next': null
+                            },
+                            setValue: function (date, date1, date2) {
+                                $timeout(function () {
+                                    scope.endDate = date2 || '';
+                                    scope.startDate = date1 || '';
+                                });
+                            }
+                        });
+                    let w_oneDate = scope.$watch('startDate', function (v) {
+                        if (!v) {
+                            return;
+                        }
+                        $(element).data('dateRangePicker').setDateRange(v, scope.endDate);
+                        w_oneDate();
+                    });
+                    let w_twoDate = scope.$watch('endDate', function (v) {
+                        if (!v) {
+                            return;
+                        }
+                        $(element).data('dateRangePicker').setDateRange(scope.startDate, v);
+                        w_twoDate();
+                    });
+                }
+            }
+        }])
         .directive('datepicker', function () {
         return {
             restrict: 'A',
